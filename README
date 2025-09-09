@@ -1,4 +1,13 @@
+تمام 👌 الكود اللي كتبتيه ينفع يكون README.md جاهز للـ GitHub.
+لو هتحطيه مباشرة في المستودع، احفظيه في ملف باسم:
 
+```
+README.md
+```
+
+والنص اللي عندك هو بالفعل محتوى الملف، بالشكل التالي:
+
+```markdown
 # 👻 Ghost Chase Game
 
 A simple survival game built with **Pygame**.
@@ -10,6 +19,7 @@ Your goal: **survive as long as possible** without colliding with the enemy ghos
 ## 📂 Project Structure
 
 ```
+
 ghost-chase-game/
 ├── README.md            # Project documentation
 ├── main.py              # Main game file
@@ -18,7 +28,8 @@ ghost-chase-game/
 │   ├── player.png
 │   └── enemy.png
 └── LICENSE
-```
+
+````
 
 ---
 
@@ -31,7 +42,7 @@ Install dependencies:
 
 ```bash
 pip install pygame
-```
+````
 
 ---
 
@@ -99,4 +110,8 @@ If you run without images, Pygame will throw an error.
 **Error: `No available video device`**
 → Run locally on a computer with a display (not on headless server).
 
+```
 
+---
+
+```
